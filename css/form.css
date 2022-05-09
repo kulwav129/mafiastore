@@ -1,0 +1,329 @@
+
+html
+{
+  height:100%;
+  width:100%;
+}
+body{    
+  background:url('techgurugarage-contact.jpg') no-repeat;
+  background-size: cover;
+  height:100%;
+
+}
+h4 a{
+	background-color:#009344;
+	padding:8px 227px;
+	text-decoration:none;
+	font-weight:bold;
+	border-radius:10px;
+	color:white;	
+}
+
+
+
+.form-top{
+  margin-top: 30px;
+}
+.panel{
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+  border-radius: 6px;
+    border: 0;
+}
+
+
+.cntctUs h1
+{
+	font-size:24px;
+	line-height:30px;
+	margin-top:0;
+}
+
+.cntctUs .rgtPnl
+{
+	width:49%;
+	border-right:1px solid #dadada;
+	padding-right:1.5%;
+	margin-right:2%;
+}
+
+section.wrap.cntctUs .lftPnl
+{
+	width:46%;
+}
+
+.cntctUs .rgtPnl ul li
+{
+	width:46%;
+	margin-bottom:20px;
+	float:left;
+	margin-right:30px;
+	min-height:225px;
+}
+
+.cntctUs .rgtPnl ul li:nth-child(2n+2)
+{
+	margin-right:0;
+}
+
+.rgtPnl h1:after
+{
+	margin:15px 0 20px;
+}
+
+.rgtPnl
+{
+	margin-right:0;
+	float:none;
+}
+
+.cntctUs .rgtPnl
+{
+	width:100%;
+	padding:0;
+	margin-right:0;
+	border:0;
+}
+
+.cntctUs .rgtPnl h2.flg
+{
+	font-size:14px;
+}
+
+.cntctUs .map
+{
+	border:1px solid #bceaff;
+	margin-top:20px;
+}
+
+.cntctUs .map iframe
+{
+	width:100%;
+	min-height:300px;
+}
+
+
+.cntctUs .rgtPnl h2.flg
+{
+	background:url(../images/in.jpeg) left 0 no-repeat;
+	padding-left:36px;
+	font-size:16px;
+	color:#0981b6;
+	margin-bottom:15px;
+}
+
+.cntctUs .rgtPnl h2.flg.usa
+{
+	background-image:url(../images/usa-flag.jpg);
+}
+
+.cntctUs .rgtPnl h2.flg.malsa
+{
+	background-image:url(../images/malaysia-flag.jpg);
+}
+
+.cntctUs .rgtPnl h2.flg.colmb
+{
+	background-image:url(../images/colombia-flag.jpg);
+}
+
+.cntctUs .rgtPnl strong
+{
+	color:#666;
+	font-weight:700;
+}
+
+.cntctUs .rgtPnl p
+{
+	line-height:25px;
+
+}
+
+.cntctUs .rgtPnl p a
+{
+	color:#0981b6;
+}
+
+.cntctUs .lftPnl fieldset
+{
+	border:0;
+
+}
+
+.cntctUs .lftPnl fieldset .fldWrp
+{
+	width:49%;
+	margin-bottom:2%;
+	margin-right:2%;
+	float:left;
+}
+
+.cntctUs .lftPnl fieldset .fldWrp:nth-child(2n+2),.cntctUs .lftPnl fieldset .mrg0
+{
+	margin-right:0;
+}
+.cntctUs .lftPnl fieldset .fldWrp.fl
+{
+	width:100%;
+	margin-right:0;
+
+}
+
+.cntctUs .lftPnl fieldset .fldWrp input
+{
+	padding:2% 4.5%;
+	line-height:22px;
+	background:#f7f7f7;
+	min-height:40px;
+	border:1px solid #eaeaea;
+}
+
+.cntctUs .lftPnl fieldset .fldWrp select
+{
+	width:100%;
+	padding:2.5% 4%;
+	line-height:26px;
+	background:#f1f1f1;
+	border:0;
+	font-family:arial;
+	font-size:13px;
+	color:#929292;
+	background:#f7f7f7;
+	min-height:55px;
+	border:1px solid #eaeaea;
+
+}
+.cntctUs .lftPnl fieldset .fldWrp textarea
+{
+	min-height:150px;
+	border:1px solid #eaeaea;
+	background:#f7f7f7;
+}
+.cntctUs .lftPnl fieldset .fldWrp input.btn
+{
+	margin-top:0;
+	background-color:#ff6a00;
+	min-height:45px;
+	width:100%;
+	-webkit-appearance:none;
+	border-radius:0;color:#fff;
+	font-size:15px;
+	font-weight:700;
+	cursor:pointer;
+}
+
+.cntctUs .lftPnl fieldset .hgt
+{
+	float:right;
+	background-color:#fff;
+	height:80px;
+	overflow-y:scroll;
+	padding:1.5% 2.6%;
+	width:94%;
+}
+
+.cntctUs .lftPnl fieldset .hgt .fld:after
+{
+	clear:both;
+	display:block;
+}
+
+.cntctUs .lftPnl fieldset .hgt input
+{
+	min-height:15px;
+	float:left;
+	margin:5px 0 0;
+	width:18px;
+}
+
+.cntctUs .lftPnl fieldset .hgt p
+{
+	line-height:20px;
+	margin-left:25px;
+	font-size:12px;
+	text-align:left;
+}
+
+.cntctUs .lftPnl fieldset .fldWrp:last-child
+{
+	margin:20px auto 0;
+	float:none;
+	display:table;
+}
+
+.cntctUs .lftPnl fieldset .fldWrp.cptcha
+{
+	margin-right:2%;
+	width:100%;
+}
+
+.cntctUs .lftPnl fieldset .fldWrp.cptcha input
+{
+	float:right;
+	width:45%;
+	min-height:26px;
+}
+
+.cntctUs .lftPnl fieldset .fldWrp.cptcha .ctpch
+{
+	float:left;
+	width:42%;
+}
+
+.cntctUs .lftPnl fieldset .fldWrp.cptcha .ctpch img
+{
+	float:left;
+	min-width:170px;
+}
+
+.cntctUs .lftPnl fieldset .fldWrp.cptcha p
+{
+	color:#737373;
+	font-size:11px;
+	float:right;
+	width:53%;
+	line-height:14px;
+}
+
+.cntctUs .lftPnl fieldset .fldWrp.cptcha a
+{
+	font-size:13px;
+	float:left;
+	margin-left:15px;
+	margin-top:11px;
+	color:#6f6f6f;
+}
+
+
+@-moz-document url-prefix() {
+    .form-control{
+      height: auto;
+    }
+}
+.panel-primary{
+  background-color: #2c3e50;
+  color: #fff;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    font-size: 20px;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+.btn-warning{
+  background-color: transparent;
+  border-color: #bdc3c7;
+}
+@media screen and (max-width: 1023px) {
+  h4 a {
+  
+    background-color:#009344;
+	padding:8px 140px;
+	text-decoration:none;
+	font-weight:bold;
+	border-radius:10px;
+	color:white;	
+  
+  }
+}
+
+
