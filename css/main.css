@@ -916,20 +916,15 @@ h2
 	float:right;
 	border-radius:45px;
 	background-size:45px;
-	animation: phone .1s ease-in-out infinite;
-	display: flex;
-	width: 100%;
+	animation: blinker 3s linear infinite;
 	
 }
 
-@keyframes phone {
-	0%, 100% {
-	 transform: translateX(-21deg);
-	}
+@keyframes blinker {
 	50% {
-	 transform: rotate(21deg);
+	  opacity: 0;
 	}
-   }
+  }
 
 .mblIconPnl .slideTop
 {
