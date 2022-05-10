@@ -9128,7 +9128,7 @@ footer .comp p a
 }
 }
 
-@media only screen and (max-width:480px)
+@media only screen and (max-width:240px)
 {
 	.bnr .bx-wrapper,.bnrPnl .bnrTxt,.bnrPnl img,.desktop .thumb-creative__front h6,.desktop .thumb-creative__front img,.testmnl .rgt:before
 	{
