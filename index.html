@@ -220,7 +220,18 @@ Our comprehensive inventory comprises of everything you need in a world-class su
     
 </div> 
 <div class="clear"></div>
-<div class="img mblShw"><img data-sizes="auto" data-src="images/edsony -01.jpg" class="lazyload">    
+<div class="img mblShw">
+<div class="w3-content w3-section" style="max-width:500px">
+        
+      
+        <img class="mySlides w3-animate-fading" src="images/black-eddy.JPG" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/blacky.JPG" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/combateddy.JPG" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/eddy-pullover.JPG" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/eddy-macho.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/homeboi.jpg" style="width:100%">
+      </div>
+	
 </div>
 <div class="clear"></div>
 
@@ -609,5 +620,25 @@ jQuery.event.special.touchmove = { setup: function( _, ns, handle ) { this.addEv
 
 <script type="text/javascript" src="cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" async="">
 </script>
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 8000);    
+    }
+    </script>
+
+
+
 </body>
 </html>
